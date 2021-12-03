@@ -11,8 +11,6 @@ spec:
             - name: "deployment"
               properties:
                 deploymentstrategy: "direct"
-            - name: "test"
-            - name: "evaluation"
             - name: "release"
         - name: "delivery-direct"
           tasks:
@@ -30,8 +28,6 @@ spec:
             - name: "deployment"
               properties:
                 deploymentstrategy: "blue_green_service"
-            - name: "test"
-            - name: "evaluation"
             - name: "release"
         - name: "rollback"
           triggeredOn:
