@@ -11,8 +11,8 @@ spec:
             - name: "deployment"
               properties:
                 deploymentstrategy: "direct"
-            - name: "release"
             - name: "evaluation"
+            - name: "release"
         - name: "delivery-direct"
           tasks:
             - name: "deployment"
